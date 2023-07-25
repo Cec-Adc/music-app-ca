@@ -1,0 +1,26 @@
+.Search .Search-bar {
+  border-radius: 50px;
+  border: none;
+  background-color: #979fef;
+  padding: 8px 10px;
+}
+
+input .Search-bar {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.Search .Search-button {
+  border-radius: 50px;
+  border: none;
+  background-color: #ffffff;
+  padding: 8px 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.Search .Search-button:hover {
+  background-color: #979fef;
+  color: #ffffff;
+}

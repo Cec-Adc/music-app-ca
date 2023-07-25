@@ -1,22 +1,18 @@
 import logo from "./img/musical-note.png";
 import "./App.css";
+import Search from "./components/search/Search.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React test
-        </a>
+        <div className="App-header-content">
+          <div className="App-header-headline">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>Never miss a concert from your favourite artist again!</p>
+          </div>
+          <Search />
+        </div>
       </header>
     </div>
   );
